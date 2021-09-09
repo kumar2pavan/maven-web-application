@@ -9,7 +9,6 @@ node
   {
       sh "${mavenhome}/bin/mvn clean package"
   }
-   /*
   stage('executesonarqubereport')
   {
      sh "${mavenhome}/bin/mvn sonar:sonar" 
@@ -33,5 +32,4 @@ node
         pavantechnologies,
          9704594336.''', cc: 'pavankumarpkr1994@gmail.com', from: '', replyTo: '', subject: 'buildfinish', to: 'pr7404610@gmail.com'  
       }
-  */
   }
